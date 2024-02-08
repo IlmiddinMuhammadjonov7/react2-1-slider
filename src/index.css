@@ -1,0 +1,53 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  text-align: center;
+}
+
+.icons{
+  width: 60%;
+  position: absolute;
+  justify-content: space-between;
+  display: flex;
+  font-size: 40px;
+  color: white;
+}
+
+.icon:hover{
+  color: black;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.asosiy{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.asosiy img{
+  width: 1000px;
+  height: 480px;
+  position: relative;
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.umumiy{
+  overflow-x: scroll;
+  width: 1000px;
+  display: flex;
+  gap: 20px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.umumiy img{
+  width: 300px;
+  border-radius: 10px;
+}
